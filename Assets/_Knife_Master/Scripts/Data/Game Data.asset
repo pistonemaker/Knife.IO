@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7932a62e8b8314742a5102b4c43e9689, type: 3}
+  m_Name: Game Data
+  m_EditorClassIdentifier: 
+  enermyData:
+  - spawnPos: {x: -33, y: 30}
+    sprite: {fileID: 21300000, guid: df5e8845aac19e045bec3c4fb4f962d5, type: 3}
+    rankSprite: {fileID: 21300000, guid: df9746065b12e664fa562347adf9bb85, type: 3}
+  - spawnPos: {x: 0, y: 25}
+    sprite: {fileID: 21300000, guid: 4f7b30f71cfd5fc448d50b5b750f3420, type: 3}
+    rankSprite: {fileID: 21300000, guid: ba45b4d82404bda4da9242829a2c9518, type: 3}
+  - spawnPos: {x: 35, y: 35}
+    sprite: {fileID: 21300000, guid: d8e1a7b64ba7a564783d08cb7abb1967, type: 3}
+    rankSprite: {fileID: 21300000, guid: efc7b249bef92404a8cd6d426c43f0cb, type: 3}
+  - spawnPos: {x: -35, y: -2}
+    sprite: {fileID: 21300000, guid: c48a11317805b1c4ba1476e84f28ea3d, type: 3}
+    rankSprite: {fileID: 21300000, guid: 316e2b106247d164cb2b1decc641eb12, type: 3}
+  - spawnPos: {x: 2, y: 35}
+    sprite: {fileID: 21300000, guid: c85e1ef65cdbe4b4688628474d27180b, type: 3}
+    rankSprite: {fileID: 21300000, guid: 25b3737f2b7b34e41affe77e726165dd, type: 3}
+  - spawnPos: {x: -35, y: -35}
+    sprite: {fileID: 21300000, guid: 048c40af980fc714bb6430d30b40a8c6, type: 3}
+    rankSprite: {fileID: 21300000, guid: ca929ecdcc6c0724ba4313d018c23448, type: 3}
+  - spawnPos: {x: 0, y: -35}
+    sprite: {fileID: 21300000, guid: 295da10cca55dfc41a2035f2b5aea395, type: 3}
+    rankSprite: {fileID: 21300000, guid: c8cb452da355af6489539d93f5bf54bc, type: 3}
+  - spawnPos: {x: 31, y: -35}
+    sprite: {fileID: 21300000, guid: 65ab1ab834bb5b04da2f9581aecc902f, type: 3}
+    rankSprite: {fileID: 21300000, guid: 42908805ad160a04bb7ecfe79e30c87b, type: 3}
+  obstaclePrefabs:
+  - {fileID: 6403836839885042268, guid: 0ad8641e606120c4eabe47913403249f, type: 3}
+  - {fileID: 8056566673718285740, guid: a557be8830c729645ac8a8e18b2b8872, type: 3}
+  - {fileID: 6781971750169098645, guid: 418a4929510dce345b7adb3cbf882aa2, type: 3}
+  - {fileID: 8963556202236545158, guid: f285b2e9caf383a4bb7c592bd4605692, type: 3}
+  - {fileID: 7887503512135516751, guid: aadfb02eccacc5c4ea405b6f65b25a5f, type: 3}
+  - {fileID: 8261894675827095499, guid: fcdf5410adc9b234ca760a005c679d84, type: 3}
+  - {fileID: 1218550912692741891, guid: 2d8023cf3e249f04ba03bd611ffa650a, type: 3}
+  - {fileID: 3665772396993939198, guid: d3ebdb18ff7b07442bff82d0929aec80, type: 3}
+  - {fileID: 4614311393345003874, guid: 37909eba32ed915458bd6956699d4bdd, type: 3}
+  - {fileID: 85124996399410209, guid: 4def61d342708d641a52072b44086200, type: 3}
+  enermyPrefab: {fileID: 3492386293405645554, guid: d3fec11ffa63bc846a660937ed9887b8, type: 3}
+  rocketPrefab: {fileID: 7608372944715960843, guid: 6725ab7ef0b1b4f4a9355a8ae8b2aa36, type: 3}
+  blackHolePrefab: {fileID: 5570373977164223730, guid: b5141057046c2bf41a77bfd65fa7db4b, type: 3}

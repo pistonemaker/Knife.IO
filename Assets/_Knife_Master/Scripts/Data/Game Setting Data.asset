@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0bddff2bfa4c7245b377334db276710, type: 3}
+  m_Name: Game Setting Data
+  m_EditorClassIdentifier: 
+  rewardData:
+    starRankReward: 040000000300000003000000020000000200000001000000010000000000000000000000
+    starKillReward: 000000000000000001000000010000000200000002000000030000000300000004000000
+  mapData:
+    mapSprites:
+    - {fileID: 21300000, guid: 78ec053f7f8bc8746919887fa7150dab, type: 3}
+    - {fileID: 21300000, guid: c00f335645a224c4fa31d3fd3e1bb6c8, type: 3}
+    - {fileID: 21300000, guid: 11c5a82040287754e93412c3a24a1c3f, type: 3}
+    - {fileID: 21300000, guid: 2cf7b1589fc03da4db09c2dbdde6cfb3, type: 3}
+    - {fileID: 21300000, guid: cd90c1d8502412b49823905822e26245, type: 3}
+    - {fileID: 21300000, guid: a3ea39efc1c715b468c66b38b71b063c, type: 3}
+    - {fileID: 21300000, guid: 80f3a0fa716428247a40a2bd3fada09d, type: 3}
+    - {fileID: 21300000, guid: 5c740bf98530d9c4e9a44bf67a0cc7fc, type: 3}
+    - {fileID: 21300000, guid: 5747b33aa5659f64a911fc8adcac7df2, type: 3}
+    - {fileID: 21300000, guid: e631ecb330c064d4cbe7e54b36189eda, type: 3}
+    - {fileID: 21300000, guid: 05522bc965c137b49b97338d776abf70, type: 3}
+    - {fileID: 21300000, guid: f23349bc9d1253d42960c2c1143718f3, type: 3}
+    - {fileID: 21300000, guid: 3a37851a025da574db6b1aa8fc0f1444, type: 3}
+    - {fileID: 21300000, guid: 6feeb0d7738bfe4438003d4b4f1a7323, type: 3}
+    - {fileID: 21300000, guid: e5acc59ff158eab43955216ceb1abf87, type: 3}
+    - {fileID: 21300000, guid: 7ad30347f6cf5114e95d1f7ece32ca66, type: 3}
+    - {fileID: 21300000, guid: ea4019d91695af1429d6c7c5f34cf7bf, type: 3}
+    - {fileID: 21300000, guid: 2cfaf05891d12324ea016cb0456727a2, type: 3}
+    - {fileID: 21300000, guid: 7bf03b62ec925244fb65b232dace654f, type: 3}
+    - {fileID: 21300000, guid: d9d012ccbdebfd642b82df2ace417dd9, type: 3}
+    - {fileID: 21300000, guid: b69a70f09bfeffc4e9dcac20bf39b486, type: 3}
+    - {fileID: 21300000, guid: 45607a3b69564af4cb76231af5bb1bf5, type: 3}
+    - {fileID: 21300000, guid: 5048b846b94fade4f90c86c97e5ed6e9, type: 3}
+    - {fileID: 21300000, guid: 3ab0bc30990ca0d4da6f457b26e252f5, type: 3}
+    - {fileID: 21300000, guid: 97f9c169ea3d0c84fb1cf8623eedeec2, type: 3}
+    - {fileID: 21300000, guid: a0a2e6e7d27a854489581815c79700bb, type: 3}
+    - {fileID: 21300000, guid: eb3addd8728adbe4092ac01b0100951e, type: 3}
+    - {fileID: 21300000, guid: 7f27456b4422f4c4ca346b80202a94df, type: 3}
+    - {fileID: 21300000, guid: 28c74b8b2007e6f49b5f56732efe7fc3, type: 3}
+    - {fileID: 21300000, guid: 29bd549a4e09e694fac0929950e394db, type: 3}
+    - {fileID: 21300000, guid: 2965745caeddc024a8fdbf32d09732f2, type: 3}
+    - {fileID: 21300000, guid: c90fa320d236bc746868337a152c9a2f, type: 3}
+    - {fileID: 21300000, guid: b7c147119a487fc4f8dc3189c2ac0b23, type: 3}
+  nameData:
+    names:
+    - Charles
+    - John
+    - Kevin
+    - Layla
+    - Jack
+    - Eliphas
+    - Lin
+    - Linda
+    - Fiona
+    - Hazel
+    - Iris
+    - Jade
+    - Kelly
+    - Raven
+    - Rafela
+    - Anna
+    - Lyly
+    - Adam
+    - Nami
+    - Ivy
+    - Bellatrix
+    - Claudette
+    - Indra
+    - Reginn
+    - Doris
+    - Jennifer
+    - Alice
+    - Annie
+    - Kate
+    - Sandra
+    - Ethan
+    - Olivia
+    - Liam
+    - Sophia
+    - Mason
+    - Ava
+    - Noah
+    - Isabella
+    - Benjamin
+    - Mia
+    - Alexander
+    - Charlotte
+    - James
+    - Amelia
+    - William
+    - Harper
+    - Michael
+    - Evelyn
+    - Elijah
+    - Abigail
+    - Daniel
+    - Emily
+    - 'Matthew '
+    - Elizabeth
+    - Lucas
+    - Avery
+    - Oliver
+    - Sofia
+    - Ella
+    - Jacob
+  rankData:
+    ranks:
+    - name: Iron
+      icon: {fileID: 21300000, guid: 2d31e2bfdfb19164a89b970ee5f2d25c, type: 3}
+      maxStar: 30
+      showText: Tap and slide to move and gain blades, screen to guard, focus on
+        enermy's core
+      itemIcon: {fileID: 0}
+    - name: Bronze
+      icon: {fileID: 21300000, guid: 5321f8f1adf69b54b9b23befbe0622fb, type: 3}
+      maxStar: 60
+      showText: Moving obstacle
+      itemIcon: {fileID: 21300000, guid: e0224b7f035706b429a24cb4a752221e, type: 3}
+    - name: Silver
+      icon: {fileID: 21300000, guid: 783d519ce204fd14f981fa5eca046d1f, type: 3}
+      maxStar: 350
+      showText: Speedy rocket
+      itemIcon: {fileID: 21300000, guid: 49f9c0847e4d1d445a28f8c914de23f4, type: 3}
+    - name: Gold
+      icon: {fileID: 21300000, guid: 107657e79e660d94890c217d6e2b8eb5, type: 3}
+      maxStar: 460
+      showText: Greed black hole
+      itemIcon: {fileID: 21300000, guid: 5ad2bfee9c5ba4e488d026eb6d2345de, type: 3}
+    - name: Platinum
+      icon: {fileID: 21300000, guid: 89481e5755c073c43a95786a4b78d8fd, type: 3}
+      maxStar: 1200
+      showText: Endless roller
+      itemIcon: {fileID: 21300000, guid: 2d3218d6603f28549831aa7c7186e577, type: 3}
+    - name: Diamond
+      icon: {fileID: 21300000, guid: 5f016335d30d5524fbdaa4d0fc6f9c34, type: 3}
+      maxStar: 3000
+      showText: Magnetic force
+      itemIcon: {fileID: 21300000, guid: e95a8e354381b3044a207d1d83ddfa98, type: 3}
+    - name: Challenger
+      icon: {fileID: 21300000, guid: 557af16444358ec4a987fdf7cddbb065, type: 3}
+      maxStar: 4800
+      showText: Counter assult
+      itemIcon: {fileID: 21300000, guid: 9ed92334943668c45a70ddc5a9cbe4a6, type: 3}

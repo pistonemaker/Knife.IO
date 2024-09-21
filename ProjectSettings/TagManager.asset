@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hole
+  - Bound
+  - Knife
+  - Knife Collector
+  - Obstacle
+  - Rocket
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Obstacles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Map
+    uniqueID: 233263919
+    locked: 0
+  - name: Obstacle
+    uniqueID: 191061449
+    locked: 0
+  - name: Knife
+    uniqueID: 3123009241
+    locked: 0
+  - name: Player
+    uniqueID: 3059576797
+    locked: 0
+  - name: Bound
+    uniqueID: 708744143
+    locked: 0
+  - name: Hint
+    uniqueID: 1103280093
+    locked: 0
+  - name: UI
+    uniqueID: 261027905
+    locked: 0
+  - name: StartUI
+    uniqueID: 1557151211
+    locked: 0

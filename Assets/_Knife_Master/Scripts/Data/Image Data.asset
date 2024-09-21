@@ -1,0 +1,1418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76fa4d039f23c54792fd8e4d1e93520, type: 3}
+  m_Name: Image Data
+  m_EditorClassIdentifier: 
+  playerColorRanks:
+  - color: {fileID: 21300000, guid: 4d00b842f3ae2894b90897a22697901e, type: 3}
+    rank: {fileID: 21300000, guid: 691bfd08cddf07c40814605da4b34521, type: 3}
+  - color: {fileID: 21300000, guid: df5e8845aac19e045bec3c4fb4f962d5, type: 3}
+    rank: {fileID: 21300000, guid: df9746065b12e664fa562347adf9bb85, type: 3}
+  - color: {fileID: 21300000, guid: 4f7b30f71cfd5fc448d50b5b750f3420, type: 3}
+    rank: {fileID: 21300000, guid: ba45b4d82404bda4da9242829a2c9518, type: 3}
+  - color: {fileID: 21300000, guid: d8e1a7b64ba7a564783d08cb7abb1967, type: 3}
+    rank: {fileID: 21300000, guid: efc7b249bef92404a8cd6d426c43f0cb, type: 3}
+  - color: {fileID: 21300000, guid: c48a11317805b1c4ba1476e84f28ea3d, type: 3}
+    rank: {fileID: 21300000, guid: 316e2b106247d164cb2b1decc641eb12, type: 3}
+  - color: {fileID: 21300000, guid: c85e1ef65cdbe4b4688628474d27180b, type: 3}
+    rank: {fileID: 21300000, guid: 25b3737f2b7b34e41affe77e726165dd, type: 3}
+  - color: {fileID: 21300000, guid: 048c40af980fc714bb6430d30b40a8c6, type: 3}
+    rank: {fileID: 21300000, guid: ca929ecdcc6c0724ba4313d018c23448, type: 3}
+  - color: {fileID: 21300000, guid: 295da10cca55dfc41a2035f2b5aea395, type: 3}
+    rank: {fileID: 21300000, guid: c8cb452da355af6489539d93f5bf54bc, type: 3}
+  - color: {fileID: 21300000, guid: 65ab1ab834bb5b04da2f9581aecc902f, type: 3}
+    rank: {fileID: 21300000, guid: 42908805ad160a04bb7ecfe79e30c87b, type: 3}
+  faces:
+  - isUnlock: 1
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: bd9287d5f864a8a4cb1b68d75b26d0ec, type: 3}
+    sprite2: {fileID: 21300000, guid: 7ba71bf9ad2d8be4aba079b018e784c1, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 0
+  - isUnlock: 0
+    hasClickedAfterUnlock: 1
+    sprite1: {fileID: 21300000, guid: dcaa9b42b3e3be84fa7895414a9526f7, type: 3}
+    sprite2: {fileID: 21300000, guid: 88558e619654baa459d91eda8a7d9c6e, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 5
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 2a36497efe18fe24ba8ee45d526fa243, type: 3}
+    sprite2: {fileID: 21300000, guid: 25ee4cecb6a154243841e08c428b5cbf, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 5
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 15bc8b0686c9de24fa56ae0a32eb988d, type: 3}
+    sprite2: {fileID: 21300000, guid: 390e74f921c11da4dbb1933f5adb428c, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 5
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 821840cf4bc311e4b8aa83dd5fddaf99, type: 3}
+    sprite2: {fileID: 21300000, guid: 58335e678991a4c4b9bafadcc888772f, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 25
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 96b09091a6ff699418356e0b109726fb, type: 3}
+    sprite2: {fileID: 21300000, guid: f6fe4f12ebe2b104aba1ed8756f5fe66, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 50
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 655632426a46939449bbdccb32a11813, type: 3}
+    sprite2: {fileID: 21300000, guid: df930ca0ac1b19f449da7fa5e4edae40, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 25
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: a2c40d125f5ace440a08b0bd5f810e15, type: 3}
+    sprite2: {fileID: 21300000, guid: 793041af32d8e2f46a5be6464e20bc98, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 100
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: ba377c1f55aaa0c44a484d9fa66cf34a, type: 3}
+    sprite2: {fileID: 21300000, guid: ad4d0a383b4ddf04fa2000f5d94bccaf, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 150
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 6eb42e3c6bf1e58409c8ed5f60b56d3e, type: 3}
+    sprite2: {fileID: 21300000, guid: 6c5e1d982ec89d84fa06690f92face05, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 50
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: d8a2ab856f8090a4e9428e5c45d9f810, type: 3}
+    sprite2: {fileID: 21300000, guid: ac365243089049c48960d8e85abbd3d5, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 150
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: e83a9e9ab22994d4fa58df621dd3d4af, type: 3}
+    sprite2: {fileID: 21300000, guid: ef20b212c034a4940804746cf36a875b, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 5f4efffe60a50804c9d3ec3a700070a4, type: 3}
+    sprite2: {fileID: 21300000, guid: 5150fbca59b3aef4996223278df07748, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 100
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 61c67f229c149114ca524f75dbe30040, type: 3}
+    sprite2: {fileID: 21300000, guid: 8d9260eeef70d70478bab5ae33e28aa0, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 5aae62b692a28ce4fa3eb55139fed88a, type: 3}
+    sprite2: {fileID: 21300000, guid: 37a2115096ad950408bd37a46e249029, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 300
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: dae7fccbccdc9e445be6a6b5d78e5cd3, type: 3}
+    sprite2: {fileID: 21300000, guid: b2e6db720f8dde94f9d70ac12f271b32, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 150
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 6159a206d677ce5458ee331dfc1993a0, type: 3}
+    sprite2: {fileID: 21300000, guid: 09325e58c8ac7d0409312eadec89044c, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 250
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: ff8c2b7fb310d484bbc6ed9d52ac38fa, type: 3}
+    sprite2: {fileID: 21300000, guid: 8bd173c895bca9d4aae4a4494b9c6835, type: 3}
+    unlockCondition:
+      unlockType: 3
+      amountToUnlock: 15
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: f34192fb2d3fadf4086446a7a0782d50, type: 3}
+    sprite2: {fileID: 21300000, guid: bdd7bb537b2390848825e1ea6c2f6387, type: 3}
+    unlockCondition:
+      unlockType: 6
+      amountToUnlock: 15
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 2e8ec8e9c57d7194d84afa41bcb653d4, type: 3}
+    sprite2: {fileID: 21300000, guid: b790286d7c6c8b9419f8099e0ec6f4db, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 400
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 37044608838d6cb41bbd85847d9a9b0c, type: 3}
+    sprite2: {fileID: 21300000, guid: 55bae321a63a9774bab4871f7c867382, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 70f1a2680cf96b648999db566a0be0da, type: 3}
+    sprite2: {fileID: 21300000, guid: 3ce319feb55b045499ba0f7156eae2b5, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 300
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 651f864f9378cab4fa209e353b0d591c, type: 3}
+    sprite2: {fileID: 21300000, guid: 34435b8f7dddb6a428ef954c7b590a36, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 450
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 434260cf6821d374bbd080d98d69db26, type: 3}
+    sprite2: {fileID: 21300000, guid: f7530a9b0d3516843b76f9676458a096, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 250
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 8da5de22d28b8364491a05b17bc5578a, type: 3}
+    sprite2: {fileID: 21300000, guid: a212742a0d176a44dbd6dca78dbd881b, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 350
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: d52efb8a0cc3a47449f2ded9a84722a7, type: 3}
+    sprite2: {fileID: 21300000, guid: b6625f14059a53f4b90cce4c711a3342, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 3b06043ba0da9b246b1349a5579d0c3d, type: 3}
+    sprite2: {fileID: 21300000, guid: 87b1ffa45f2dc984aa71fae090647161, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 300
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 684c6ca8c9f1a984ea9e1aeb06de878f, type: 3}
+    sprite2: {fileID: 21300000, guid: 17200a154a18a184b9a82a49845a8e3e, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 400
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 47fc756036eb77f428a79a1223f93ada, type: 3}
+    sprite2: {fileID: 21300000, guid: 3f9a6baa02d6a5b42a8c8660ef4b420b, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 600
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 0e84cd19d96c265439088e64e02ad22f, type: 3}
+    sprite2: {fileID: 21300000, guid: 7fbd31afdbb3dad4a9b66889bab5d4dc, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 350
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 23f604ea154421141ba9146b8e1776b2, type: 3}
+    sprite2: {fileID: 21300000, guid: a58b3359a5f7a2847bc1639d8d515437, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 73c13bd8ee920ac47addda4b60a7b38a, type: 3}
+    sprite2: {fileID: 21300000, guid: f1b9971fee2770f45aee8aabe65727b4, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 700
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 90151dda1aef7024e8243a59e656df05, type: 3}
+    sprite2: {fileID: 21300000, guid: d34d6d3345ba18c478685b28370b84dc, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 400
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 393df8da18b1c904c9bf6226baebf170, type: 3}
+    sprite2: {fileID: 21300000, guid: b3eac6a767c7f0f4dae0b685474c26b3, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 600
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 058d24138458c554b93420f1b45e29fa, type: 3}
+    sprite2: {fileID: 21300000, guid: be90a97aefc4a554fa30066dfd43649e, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 900
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: e6d94d3544058704b8e300bee1be30ee, type: 3}
+    sprite2: {fileID: 21300000, guid: dcdf6410b933e414d8cbd3b8375dcb21, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 450
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: b6a6ff04bdbfe2043932c67587118440, type: 3}
+    sprite2: {fileID: 21300000, guid: 4b1be9435893c3f4593b6358298b381b, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 700
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: f7cfa4ddd6e74d94783c824227806eb7, type: 3}
+    sprite2: {fileID: 21300000, guid: 22c2ea4ab6151704084219285333c112, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 1200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: d9be2baca56e5354bac41e72f825e454, type: 3}
+    sprite2: {fileID: 21300000, guid: 8fd0aefb9e1a42046b70011356dd2261, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 72668b9ad8439204cbd16d4f7e9e1477, type: 3}
+    sprite2: {fileID: 21300000, guid: 72668b9ad8439204cbd16d4f7e9e1477, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 900
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 2122e008a886b3b46991c999da99e2d9, type: 3}
+    sprite2: {fileID: 21300000, guid: eea6e12358b4c4f4dbdcc97ffa5a4aa1, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 1800
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 33d4a929a90fc9148a18ebd324a9b9e3, type: 3}
+    sprite2: {fileID: 21300000, guid: 936d2f6d674aaaf48a93547499e95d99, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 600
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 7be82ab2a88e30344a01470d2e7a55fc, type: 3}
+    sprite2: {fileID: 21300000, guid: 8f77dc57aae3ee2438016a1624cd59d3, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 1200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 1abd327489622ee4faa5f91b60b4398c, type: 3}
+    sprite2: {fileID: 21300000, guid: 57503cba3ae2dc544ae392f185d5f0b0, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 2500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 449ac23b867d16042a1072b3c62570a2, type: 3}
+    sprite2: {fileID: 21300000, guid: 61cbb6bdb74bec642abc64eb63252440, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 750
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 1e82ba43a3b2d82498e146f84430db87, type: 3}
+    sprite2: {fileID: 21300000, guid: aafe85c9008d49e44ba2256f6df2710d, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 1500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 2e0a6709f0604e2499836a6b223335ad, type: 3}
+    sprite2: {fileID: 21300000, guid: 40baa01c7106c774ca167d09b882679e, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 3500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 2a60acf8a87f65a46be473213ca93050, type: 3}
+    sprite2: {fileID: 21300000, guid: 49e9a897c2bd9a040a44ad77d47603b4, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 850
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: d4b154cc3fd9b594688d6ad59b195c56, type: 3}
+    sprite2: {fileID: 21300000, guid: 5d06829b2f4dba24b9d87d484a82d47f, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 2000
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 0d92c67c6aef136459fb6bc7a2c84050, type: 3}
+    sprite2: {fileID: 21300000, guid: 777be565754781546872a42b2f57fa51, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 4500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: e27db8d01a4a1f343a491049b2e76ce1, type: 3}
+    sprite2: {fileID: 21300000, guid: fdcfed81608c8ea4781b90ee8c73b63e, type: 3}
+    unlockCondition:
+      unlockType: 6
+      amountToUnlock: 40
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: d85fa8efe75fe6944ac20aef354f867c, type: 3}
+    sprite2: {fileID: 21300000, guid: 44ce1d83efdf0fe4d90de077084400f5, type: 3}
+    unlockCondition:
+      unlockType: 3
+      amountToUnlock: 60
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 9514145940a0aa3458e8fdb34a402c8e, type: 3}
+    sprite2: {fileID: 21300000, guid: 46a201254b78a2640a5a3fbce837ecaa, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 1000
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: b6ba1602e8a7b5e409b2ac97a77c3f25, type: 3}
+    sprite2: {fileID: 21300000, guid: b7a7ffdd70cc6c24683b52e69a0ff3f4, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 2500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprite1: {fileID: 21300000, guid: 52a0da09d6e80d54cb3efdc88fb60856, type: 3}
+    sprite2: {fileID: 21300000, guid: 05e016e48cf085c438254223798634c6, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 5500
+  knifes:
+  - isUnlock: 1
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 3bd6f7743a8a78049a907008b3386ced, type: 3}
+    - {fileID: 21300000, guid: fde472cd480158b4593f71db758c2566, type: 3}
+    - {fileID: 21300000, guid: c2611a5ac0b98624b9711c1e1fbcad32, type: 3}
+    - {fileID: 21300000, guid: 69226e8bcf33d9a438925964f5ffc786, type: 3}
+    - {fileID: 21300000, guid: 13128d313be22b446a56d70a679bd7e7, type: 3}
+    - {fileID: 21300000, guid: 20458a40aaaf61549aad8705c04a7f72, type: 3}
+    - {fileID: 21300000, guid: 3bda97ea79feda04e881a6c2ca7a92d2, type: 3}
+    - {fileID: 21300000, guid: 0337b2f85df023444a0029eff5ef72f9, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 0
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 265060b80a85c434a9c7c97f3c31faa5, type: 3}
+    - {fileID: 21300000, guid: a871a1c38536002488c2fc666de0a8df, type: 3}
+    - {fileID: 21300000, guid: 4f76a92b14ed33844ba8abe43e8b954e, type: 3}
+    - {fileID: 21300000, guid: d2f7f3ca6bb5aaa4dbeefc34d51e291f, type: 3}
+    - {fileID: 21300000, guid: d4f0ad167b31aae4588fd8610e7e3106, type: 3}
+    - {fileID: 21300000, guid: 25d8ab0ad56ea7e49b7a640e3c7b3b19, type: 3}
+    - {fileID: 21300000, guid: 59ade9cffb8d6794ba4ff9c2b6355a6e, type: 3}
+    - {fileID: 21300000, guid: e1af6caaf101ee84886e500a71191ab4, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 5
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: edbd0243e8c79ad4cb1d175386bc28f7, type: 3}
+    - {fileID: 21300000, guid: edbd0243e8c79ad4cb1d175386bc28f7, type: 3}
+    - {fileID: 21300000, guid: 957cbe8581be1f7498dde9e4b2849113, type: 3}
+    - {fileID: 21300000, guid: 7fd189b6015fc064ea4f3310f413f3aa, type: 3}
+    - {fileID: 21300000, guid: f68dd870bd30fd04d831a19771748b73, type: 3}
+    - {fileID: 21300000, guid: ee1b9877707036e44a4a976d5bc6d761, type: 3}
+    - {fileID: 21300000, guid: d9f83a899656f8e479a8f6d50a516b61, type: 3}
+    - {fileID: 21300000, guid: fa983f5d1a92e0741a6daa75816c59e1, type: 3}
+    - {fileID: 21300000, guid: a5dd8ff3272fd0d4abbabd236197de89, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 25
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: ef6dcb606a958ff4f899ee31699c8048, type: 3}
+    - {fileID: 21300000, guid: be22a48728702f144ae3151522c8eaf1, type: 3}
+    - {fileID: 21300000, guid: 63629f30e7915544ea54b29b3b5d3491, type: 3}
+    - {fileID: 21300000, guid: 41ec58e7a04be3a4c88fdb0a7004daf9, type: 3}
+    - {fileID: 21300000, guid: de607f5af6609684b8d18430999a9575, type: 3}
+    - {fileID: 21300000, guid: f66cc7e98235d0548ad67fd7c19ceb5a, type: 3}
+    - {fileID: 21300000, guid: 1105ddf84b764cd4cbb6fcdfddd1694e, type: 3}
+    - {fileID: 21300000, guid: 2d841c0e41fc68540bc23eeaf8fcfb3e, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 10
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 17442f646cce0c14db2446d0cf3efb47, type: 3}
+    - {fileID: 21300000, guid: dc225e337c2fef54985610a025d43825, type: 3}
+    - {fileID: 21300000, guid: 698f16a92c7f58d448f8fc305143dba0, type: 3}
+    - {fileID: 21300000, guid: 2919bccb382172649ad05a805418f4df, type: 3}
+    - {fileID: 21300000, guid: 884e9563175d6994a824b34251f61db5, type: 3}
+    - {fileID: 21300000, guid: ab8b6da92bfb73a40b884df6698d937e, type: 3}
+    - {fileID: 21300000, guid: 1c086b539475a2948b2f1bd2da159fe1, type: 3}
+    - {fileID: 21300000, guid: f171176aee9322a4888615df11e9ed8c, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 25
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: b51e768c95a460143bb3afc45a863db5, type: 3}
+    - {fileID: 21300000, guid: 879361b6fbdc2964694a4c6e79a4e9b3, type: 3}
+    - {fileID: 21300000, guid: 5786f3325fa661a4c9a09b830ccff097, type: 3}
+    - {fileID: 21300000, guid: e3f2e66cc3287514f85cfc6abc768a65, type: 3}
+    - {fileID: 21300000, guid: 34472f5e3cc8a7540871ff10c4d5ccf6, type: 3}
+    - {fileID: 21300000, guid: bb3bb64808eeb0e44a54d635bbc5c095, type: 3}
+    - {fileID: 21300000, guid: 414db7d10ca666d47b56a4fe5abff584, type: 3}
+    - {fileID: 21300000, guid: e1dd2aab8a2885446999154214733b60, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 50
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 906463fdafcf4cb439c5925d093591df, type: 3}
+    - {fileID: 21300000, guid: 94b90b6b3860fb040961a0927db80a95, type: 3}
+    - {fileID: 21300000, guid: 389c9c2baba83a2488c5ebb315e9087f, type: 3}
+    - {fileID: 21300000, guid: af41a706d45d5674ebe4d2deff222646, type: 3}
+    - {fileID: 21300000, guid: 6f9b48540fc3fc5499ff354ba2f879c8, type: 3}
+    - {fileID: 21300000, guid: 3cc60eb6e5cb7cf42836f6a6215d1f5f, type: 3}
+    - {fileID: 21300000, guid: 0d182af2abbdfe74cafb5ccffbec942c, type: 3}
+    - {fileID: 21300000, guid: 81b7f43b70df968408beaf13a75bc845, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 25
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 828d960bad3b18744ad9f012e0c3a229, type: 3}
+    - {fileID: 21300000, guid: 3277adb79a216574891d93d6867e27e3, type: 3}
+    - {fileID: 21300000, guid: 49449440f40134f48b5d3e597d7e877a, type: 3}
+    - {fileID: 21300000, guid: ad0de87f5ea58944688bbaece24e806d, type: 3}
+    - {fileID: 21300000, guid: 15d6789fb2dfca24ca6a6c8e046a5b43, type: 3}
+    - {fileID: 21300000, guid: 79806faee5c94da4cba6301dc0ef3647, type: 3}
+    - {fileID: 21300000, guid: 99a695753a79bd74582db477ab641885, type: 3}
+    - {fileID: 21300000, guid: 272c1507bfc881f4a892cf30ac08d1cf, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 50
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: a3954fd9952df6b40a3f17fd73843e29, type: 3}
+    - {fileID: 21300000, guid: 81cce0cc554deb345bf71ebaa2e63d3e, type: 3}
+    - {fileID: 21300000, guid: 97c62978a145e4145aa855b07373c43a, type: 3}
+    - {fileID: 21300000, guid: 1d27a4db23bbeee42a666759c7b0f5a9, type: 3}
+    - {fileID: 21300000, guid: dc84637f9ff460b479de04d31fbf9b81, type: 3}
+    - {fileID: 21300000, guid: a4c5c3b9e0c8f624c9020222d8673e25, type: 3}
+    - {fileID: 21300000, guid: ea1c4bc88ff5e3b49a9fb0276797eb99, type: 3}
+    - {fileID: 21300000, guid: 6a027bfb4c412c347b09a8b25e5eaed4, type: 3}
+    unlockCondition:
+      unlockType: 3
+      amountToUnlock: 5
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: efd6d36d807f472448167920b81e4ca5, type: 3}
+    - {fileID: 21300000, guid: 3bf7166d4c28f834682f8d37a86b4212, type: 3}
+    - {fileID: 21300000, guid: 3c348c66f2f6d9d43b4a27fb7f3a1766, type: 3}
+    - {fileID: 21300000, guid: 54685cae25886b74db9d8b8259244e72, type: 3}
+    - {fileID: 21300000, guid: cffcc4f8f4f83244697d880a213eca1e, type: 3}
+    - {fileID: 21300000, guid: 13e5399d25e0693479f113de185ffdb4, type: 3}
+    - {fileID: 21300000, guid: 921175221c9eba849afaeeb73c89b05d, type: 3}
+    - {fileID: 21300000, guid: d9f665708944be44aacf41e5c4755046, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 75
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: c9ddd64070787a44fb7c931065005398, type: 3}
+    - {fileID: 21300000, guid: b4532149616c82942a8291ebf6914e09, type: 3}
+    - {fileID: 21300000, guid: c334050e3544a684ebb7e636bf47b3d0, type: 3}
+    - {fileID: 21300000, guid: 8ee8a6a1c36a6a84c8c4f98e41f0be25, type: 3}
+    - {fileID: 21300000, guid: 3785074814da1464a9771dae63ba6589, type: 3}
+    - {fileID: 21300000, guid: 1b0f7ffeb0b2594488dec1a35a45c5d1, type: 3}
+    - {fileID: 21300000, guid: 1166fc7ea3c3c414e86acc06deafaaaf, type: 3}
+    - {fileID: 21300000, guid: f0608e2cc828f9c48a00386ab615c029, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 50
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 832c126571631254da4e7bcbd8a8efe8, type: 3}
+    - {fileID: 21300000, guid: 10681b3a159f7794dac3db19c0144d9c, type: 3}
+    - {fileID: 21300000, guid: 56f8409644c13f34387b4021d6a2a541, type: 3}
+    - {fileID: 21300000, guid: 95b761ea725089441a20852aecce9ab6, type: 3}
+    - {fileID: 21300000, guid: 341841360019c9c47829adfa45c0c0c8, type: 3}
+    - {fileID: 21300000, guid: c1b97dd8b1c88344c9fccf06818f6a77, type: 3}
+    - {fileID: 21300000, guid: 92c78d4599d6b8945ad73afea621c385, type: 3}
+    - {fileID: 21300000, guid: 0ac0120602fcb9b4380206aeaf093a49, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 75
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: a1d87886af11a534286714a327124e63, type: 3}
+    - {fileID: 21300000, guid: e8aaff624b6201a45a34b8a3eee41f2d, type: 3}
+    - {fileID: 21300000, guid: 77510c63d06c2a74a9545cd0066af3b2, type: 3}
+    - {fileID: 21300000, guid: 7a5b80b095eecab4c813d8c512c70293, type: 3}
+    - {fileID: 21300000, guid: 0c6b7ea90b19b124db0c8ba0bef13518, type: 3}
+    - {fileID: 21300000, guid: 047ad6c69b5fc774bba3f4c9feb26580, type: 3}
+    - {fileID: 21300000, guid: 03dfc0fd13f721346958c7e240569d56, type: 3}
+    - {fileID: 21300000, guid: ae6c3c5ce4446cc4db773a57732c7027, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 100
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 947ce26febcee8749b9ebb03f7cb08b0, type: 3}
+    - {fileID: 21300000, guid: f8fff49c548fba74eb9c189e33eb9b56, type: 3}
+    - {fileID: 21300000, guid: 2610a78302715b74fa4768506c92bf70, type: 3}
+    - {fileID: 21300000, guid: 44dd2c005c780b641b761945b6afc76e, type: 3}
+    - {fileID: 21300000, guid: 3e4a5ca0468c34c469224a416bf6f6f5, type: 3}
+    - {fileID: 21300000, guid: 04c036bad05a2554ea5ebfca0bbd88de, type: 3}
+    - {fileID: 21300000, guid: 659282feeb73fa0419e96023287f4c2b, type: 3}
+    - {fileID: 21300000, guid: de39ef65b49480d45b8ecce7dee2f27a, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 75
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 6f352e3acc7e5ee4696b8427845f573c, type: 3}
+    - {fileID: 21300000, guid: f99786da486ca80418c34ccf40dee613, type: 3}
+    - {fileID: 21300000, guid: 68cd077c92696aa49b39f213537ab942, type: 3}
+    - {fileID: 21300000, guid: 3ca6e47712a31f341a6cd4eca9f835e7, type: 3}
+    - {fileID: 21300000, guid: 843fa616099e48e4aa5baa98d1778342, type: 3}
+    - {fileID: 21300000, guid: 56410f10ece90184186823704b9e8dcc, type: 3}
+    - {fileID: 21300000, guid: 2df8b974f697dc24f8cf8e5ff8ea6d91, type: 3}
+    - {fileID: 21300000, guid: f3a14106cf32e414f964fe0a2c411010, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 100
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 37658d4a5c58f2c4ba21975f2e52cb54, type: 3}
+    - {fileID: 21300000, guid: 1ece2fe6e459cca428c8b80fbd7b5703, type: 3}
+    - {fileID: 21300000, guid: 0603a5ab39f704a4ab38f2ce44c227f5, type: 3}
+    - {fileID: 21300000, guid: 72edcf8c31ea6cc44b0596b85118a8f2, type: 3}
+    - {fileID: 21300000, guid: b9c0a485c3e0fd844b01aeb40b9205cc, type: 3}
+    - {fileID: 21300000, guid: 336f17dfc9ce0b143b7451414c6463eb, type: 3}
+    - {fileID: 21300000, guid: 15539a696c57b02449c32b0c44cc221f, type: 3}
+    - {fileID: 21300000, guid: 081411e0f80686542a95fab77d95e8aa, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 150
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 7931c247f38146943b440b66bfc5dd9e, type: 3}
+    - {fileID: 21300000, guid: 67c5fc21c1c4a1d4f97b94cc5d24ee28, type: 3}
+    - {fileID: 21300000, guid: e4db8b3d1d83973489b4dae297d562e0, type: 3}
+    - {fileID: 21300000, guid: a1864841aea9220418188e27ff3e6856, type: 3}
+    - {fileID: 21300000, guid: 996099188ee808c40b5f71d0cb98cc64, type: 3}
+    - {fileID: 21300000, guid: 32624ec1efe8fb249a8d03781a2a2ced, type: 3}
+    - {fileID: 21300000, guid: 371fc08e321764741a73ca46ba04bbc8, type: 3}
+    - {fileID: 21300000, guid: e4fc944d841896e49bb26cd2e40d28d0, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 100
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 6a95d797d28d96642b322f29e98a8fbf, type: 3}
+    - {fileID: 21300000, guid: 2ec355b12b86b194abfed9e0cf0781ef, type: 3}
+    - {fileID: 21300000, guid: 46c027e38ff93434d841b6ea305a3fa8, type: 3}
+    - {fileID: 21300000, guid: d6ae85aaa95cb064ab6bf3a91c21bdae, type: 3}
+    - {fileID: 21300000, guid: 5e7285c565e74d344ac67bf8ff75d1c4, type: 3}
+    - {fileID: 21300000, guid: ca5f80c42970d014bbe4baf13a0747ac, type: 3}
+    - {fileID: 21300000, guid: 36b3198695141d346a8b83edd8c61f93, type: 3}
+    - {fileID: 21300000, guid: 83365984694be7348b123b33b99946fd, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 160
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: ebb65ac7a23342540a6b22491a922ee1, type: 3}
+    - {fileID: 21300000, guid: c01ad706b58697748ae51d4423455694, type: 3}
+    - {fileID: 21300000, guid: d60971d4781c5fa41814c540d4c90f87, type: 3}
+    - {fileID: 21300000, guid: 7d527f17a35a3d748a7857f34152fcc7, type: 3}
+    - {fileID: 21300000, guid: 7b9f161c83df2ce4590ca0a06dd3f3ba, type: 3}
+    - {fileID: 21300000, guid: e67fd22dbdfe79f428197b34aef841da, type: 3}
+    - {fileID: 21300000, guid: f7292f93f6d809947b617eb648e497a6, type: 3}
+    - {fileID: 21300000, guid: 9e46f263633c43e499bbd2def54aa91f, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 0aec43aa81f0df74198b127909e7ca01, type: 3}
+    - {fileID: 21300000, guid: 4ba3f554bbc53a4468e3b4b9697343a0, type: 3}
+    - {fileID: 21300000, guid: f05afef9723f91145880837e62016507, type: 3}
+    - {fileID: 21300000, guid: 5219696d38293f94ea4ee1cf1ac32b38, type: 3}
+    - {fileID: 21300000, guid: aab8a6d792a5a0548a0298d0744c560b, type: 3}
+    - {fileID: 21300000, guid: 329d28457203df749b1234d982cdbd38, type: 3}
+    - {fileID: 21300000, guid: c8c47fc28dc70ad4182ba9039d9bfb4b, type: 3}
+    - {fileID: 21300000, guid: 1a158a2b83e01f64eac4e40f31be80ea, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 160
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 6c4d6ce86b7be7243a916e9dbb7296e6, type: 3}
+    - {fileID: 21300000, guid: f840e3564b87e06449c5439133e709cc, type: 3}
+    - {fileID: 21300000, guid: 7c579177f87b8fd4f9192c89782cf615, type: 3}
+    - {fileID: 21300000, guid: 79636a7e85c7bba469b520ed6e4c8f0d, type: 3}
+    - {fileID: 21300000, guid: e4a16c0163300d841b93aaaf16dd08be, type: 3}
+    - {fileID: 21300000, guid: 14e817b123436eb4987d4e42f593f8e3, type: 3}
+    - {fileID: 21300000, guid: 839f97d1c97bdbd43a565c2a7f086e84, type: 3}
+    - {fileID: 21300000, guid: 56b63962bcc1a06429102fba82f3d491, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 180
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 5797718545eb99a4abcf9574886b7dce, type: 3}
+    - {fileID: 21300000, guid: 936961e06503b3b4692765706d89d1fe, type: 3}
+    - {fileID: 21300000, guid: 5ce483aebb16fa349b820daf7b379e97, type: 3}
+    - {fileID: 21300000, guid: ab9a6b5a71719624f8491fbd66a573d8, type: 3}
+    - {fileID: 21300000, guid: 05d5fb095a053184a835413aad1f6a5f, type: 3}
+    - {fileID: 21300000, guid: 5ddd347030366eb46aa1093566b9a545, type: 3}
+    - {fileID: 21300000, guid: a35cb3d3f21d7c545beacfb1a8a986db, type: 3}
+    - {fileID: 21300000, guid: f8647f88876c71444a90bc66e20d7e14, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 250
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 2fee1d20ec5364342856e022475f183e, type: 3}
+    - {fileID: 21300000, guid: c6793b243b1b9a648ad2fdeae5779979, type: 3}
+    - {fileID: 21300000, guid: 64d0a778fb0cb8142a2db4626fc4e947, type: 3}
+    - {fileID: 21300000, guid: 1db5f0d7ca11c58419f0fa1bf5c0cabd, type: 3}
+    - {fileID: 21300000, guid: 5939cb6b1f3cc4549a1af3237f70e6e2, type: 3}
+    - {fileID: 21300000, guid: e3493f7f7d0e8d644be9247bb0f222a3, type: 3}
+    - {fileID: 21300000, guid: 72e8b50791b6ee847b2d6897dfd71a5b, type: 3}
+    - {fileID: 21300000, guid: 6736938de1e5ac347a594a5f2ac681b1, type: 3}
+    unlockCondition:
+      unlockType: 3
+      amountToUnlock: 20
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: c222089d066cedb4d88054d6709e9499, type: 3}
+    - {fileID: 21300000, guid: d8e276401b945da48ba5177dacb072e0, type: 3}
+    - {fileID: 21300000, guid: a3f128e4ba3b4c5459806ce0e53aaf79, type: 3}
+    - {fileID: 21300000, guid: daaf98f2ef947dd4b81dd4f621111191, type: 3}
+    - {fileID: 21300000, guid: fa6d19dd78c8d8c48889574d5f5d3f0f, type: 3}
+    - {fileID: 21300000, guid: fd73a9a1a4b2db94894b6b14ea827ab1, type: 3}
+    - {fileID: 21300000, guid: 36d4d0f1e19102a47ab8b5a39aa66f32, type: 3}
+    - {fileID: 21300000, guid: fe0d382058cf9864bac217daf040786d, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 180
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 25a4775aae2e2a44aa2dbb7d92dcb6bc, type: 3}
+    - {fileID: 21300000, guid: 0ba739ee824b30d4eada67445fc96db7, type: 3}
+    - {fileID: 21300000, guid: 744c153f78c6caf4ab7c60c39141cd91, type: 3}
+    - {fileID: 21300000, guid: 942bd51eadbf0654c9aa8e3ce6a72bfe, type: 3}
+    - {fileID: 21300000, guid: 6eead382996d50d4bba4b368d12fad62, type: 3}
+    - {fileID: 21300000, guid: 285b54ea09651a64a93a91a8321b71cc, type: 3}
+    - {fileID: 21300000, guid: 3cd1268c0387eef45828c615af8682cf, type: 3}
+    - {fileID: 21300000, guid: 792570073f2fef14286236899823474c, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: c71b3a2ad7b499648ab48b3d209b8ffa, type: 3}
+    - {fileID: 21300000, guid: 7d2ac57c3e49ca04eb46b4f7b6a031c8, type: 3}
+    - {fileID: 21300000, guid: a444ca19e0b44864c9d63982b1d1ae95, type: 3}
+    - {fileID: 21300000, guid: 9a437b38063b9014fa1a6bd295cefac2, type: 3}
+    - {fileID: 21300000, guid: f3687f7f363730c40ae3752cb355691e, type: 3}
+    - {fileID: 21300000, guid: 1f5143f0e1b752f459b7fbbf8e7a5ccb, type: 3}
+    - {fileID: 21300000, guid: 91436464af97fbe4784677c8dec35ae8, type: 3}
+    - {fileID: 21300000, guid: edd65e10add90344c9be58a49677af50, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 300
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: e4fc5017c644b2f4abf24696207f2bcb, type: 3}
+    - {fileID: 21300000, guid: b8511f376b4081c479cbf62fb21e803c, type: 3}
+    - {fileID: 21300000, guid: 06e0a15e5754860419f16f28cf8e33ab, type: 3}
+    - {fileID: 21300000, guid: 3ccb149ca6347594f83e4966abd65f46, type: 3}
+    - {fileID: 21300000, guid: 17fb796885aed7d4f8bf581cb4cf9936, type: 3}
+    - {fileID: 21300000, guid: b500ff04a51600444bca86533e23b0a7, type: 3}
+    - {fileID: 21300000, guid: 79e48d635bc53484c8a05e2bffd9f8cc, type: 3}
+    - {fileID: 21300000, guid: 761b7d34e62ca114eaaec98d02dc6049, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 01d6753050ac9034782c7bc8b8115975, type: 3}
+    - {fileID: 21300000, guid: e154b9a4b93483e4f9933353049f741f, type: 3}
+    - {fileID: 21300000, guid: 6160d2c25dbc268499a763422b1a898f, type: 3}
+    - {fileID: 21300000, guid: e20285f686cd1ec48b7f251fd5c4d2a4, type: 3}
+    - {fileID: 21300000, guid: 5aedb92df7d72924d9d3a0d576f0036b, type: 3}
+    - {fileID: 21300000, guid: 5459fb6ef7fbb4f47906fcd3fd1db3f1, type: 3}
+    - {fileID: 21300000, guid: e96e40396c3452f4c9835142c861b7c1, type: 3}
+    unlockCondition:
+      unlockType: 5
+      amountToUnlock: 15
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: d1b3b950c1ac68a48bcf06474810c6a8, type: 3}
+    - {fileID: 21300000, guid: 40e0d6cc578b6dd41ae77ef58ad99918, type: 3}
+    - {fileID: 21300000, guid: 549066924e6c6c148b3b68f9177a9207, type: 3}
+    - {fileID: 21300000, guid: add636b931415b143a220402b3157174, type: 3}
+    - {fileID: 21300000, guid: 847c2ed4b7a2e33409dfa599402d1bcc, type: 3}
+    - {fileID: 21300000, guid: 391ebedcbe0905043b83fff5591ef761, type: 3}
+    - {fileID: 21300000, guid: 821993930c1508d46a06eccd1e9ecec7, type: 3}
+    - {fileID: 21300000, guid: 2ff10c642ad742d4b8cdbd75b32ec9a4, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 225
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 2e0e211daca64874fa98e3a70f7822da, type: 3}
+    - {fileID: 21300000, guid: e2df45654bee16544a95fd235995b5d8, type: 3}
+    - {fileID: 21300000, guid: 1132f3c05ba3fe440849dfff8655f46c, type: 3}
+    - {fileID: 21300000, guid: 023d2e48c52f7f9419b720d6d9caa6ae, type: 3}
+    - {fileID: 21300000, guid: 8b2afbea71b67c14c96e6eb95af5abd6, type: 3}
+    - {fileID: 21300000, guid: 8cb071697c489c746ad819257a28aa60, type: 3}
+    - {fileID: 21300000, guid: 2a6afc2badc2fae4b9d8a764856183b4, type: 3}
+    - {fileID: 21300000, guid: 7a5ca2e35653cfc4bb7128069cea68ac, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 350
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 390e1b220b13c1649bc4c437acf51f01, type: 3}
+    - {fileID: 21300000, guid: 146e725f06ab3b0478874e05a271f7c9, type: 3}
+    - {fileID: 21300000, guid: db18f91c40d010f4aa6ba8cc6d9157b4, type: 3}
+    - {fileID: 21300000, guid: ecd1d34c22033854696401107a0b37ed, type: 3}
+    - {fileID: 21300000, guid: b3ce12c2111a1ad43a002bd38a5e2ef1, type: 3}
+    - {fileID: 21300000, guid: 7bf0a2ec334591b48b6e3665fb86b121, type: 3}
+    - {fileID: 21300000, guid: d26b3afe1e046f5488ce556dcd62ea1f, type: 3}
+    - {fileID: 21300000, guid: 672664d2427111a4f80c729608cb2179, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 225
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 624a62832d5756e4592e849179068dbc, type: 3}
+    - {fileID: 21300000, guid: 348f7fad5d0008244af31ed8c4388a35, type: 3}
+    - {fileID: 21300000, guid: 04d90c5b4b54c5b45bbc86f4cab63547, type: 3}
+    - {fileID: 21300000, guid: fd321aed6c12fe040a7d6272991a5710, type: 3}
+    - {fileID: 21300000, guid: 9625030444aad1d4e899f18d3c24f83d, type: 3}
+    - {fileID: 21300000, guid: f4528f1d835ed674ba0fc1b124f0b3a1, type: 3}
+    - {fileID: 21300000, guid: 45c96d5da863779438ee86739cff9b57, type: 3}
+    - {fileID: 21300000, guid: 0e747297e989a624f93f897da6562b98, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 250
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 490cd50aabf21c14a97e7563e8f206c3, type: 3}
+    - {fileID: 21300000, guid: bada79fc627905a4886e7538a1645bc1, type: 3}
+    - {fileID: 21300000, guid: 2632badab90650a40a82d52a8390a973, type: 3}
+    - {fileID: 21300000, guid: 555e050c0efd8bb45aefff7b2e620090, type: 3}
+    - {fileID: 21300000, guid: 0a1fce61a5dfdf640820574d992f601a, type: 3}
+    - {fileID: 21300000, guid: e16500a36f2850e4090167d6967c6de1, type: 3}
+    - {fileID: 21300000, guid: 8564108c3b243e24da90aeebba820ee5, type: 3}
+    - {fileID: 21300000, guid: 2325df40aa3dbfc40a498ec4027780db, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 400
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 95a3901d32adc7342ac4c3205aac77b9, type: 3}
+    - {fileID: 21300000, guid: b76a4474fd60f0545a96e1a5f8704a57, type: 3}
+    - {fileID: 21300000, guid: d476f2074b7f4c8448af219b8d98edb5, type: 3}
+    - {fileID: 21300000, guid: a7f2837602d22b8448d1b77cf68cb523, type: 3}
+    - {fileID: 21300000, guid: 839b860fc91303e4f876978605745ff6, type: 3}
+    - {fileID: 21300000, guid: b2d75548e2364be409a7296661510495, type: 3}
+    - {fileID: 21300000, guid: 4e21eb35bfdc55e45b348d1fd3df721a, type: 3}
+    - {fileID: 21300000, guid: 40833e02d12f30f45bc6091e52959ae3, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 250
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 6bdc989bc2172424ba00a72432166278, type: 3}
+    - {fileID: 21300000, guid: 4a96d87c1cb23864dbecef4c5b48e4f9, type: 3}
+    - {fileID: 21300000, guid: fdc6c8f73c9cf9548bb51c6170bfd796, type: 3}
+    - {fileID: 21300000, guid: 588bedbb80133194c96bfdb27a27b461, type: 3}
+    - {fileID: 21300000, guid: 3efba15f133ffaf47b382750b473dc46, type: 3}
+    - {fileID: 21300000, guid: 18b20338664154f488473bf16cd899df, type: 3}
+    - {fileID: 21300000, guid: 41d094f4641b1bd4bbce7f965fadc18e, type: 3}
+    - {fileID: 21300000, guid: d3f5202018c416b4c81962a9185b97bf, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 275
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 14dacfafb06a9794298f6f5266c8e42a, type: 3}
+    - {fileID: 21300000, guid: f7f61d05999f3784ebf201aef3617358, type: 3}
+    - {fileID: 21300000, guid: 8cacadf29e82b3a4a95fde0d160cad4b, type: 3}
+    - {fileID: 21300000, guid: 8d20460ac1cdb5b45b20fd3767c367bd, type: 3}
+    - {fileID: 21300000, guid: 0d22648ec11ccdf4f9e4e7a56be74239, type: 3}
+    - {fileID: 21300000, guid: d174b67ba6d812a449e8585a620600f7, type: 3}
+    - {fileID: 21300000, guid: 00f606a372f7ac346b93597697524768, type: 3}
+    - {fileID: 21300000, guid: bc46b3ae1eb1493469ebcf22418dda49, type: 3}
+    unlockCondition:
+      unlockType: 3
+      amountToUnlock: 30
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 23404d5c72e598b449aa128293462614, type: 3}
+    - {fileID: 21300000, guid: 7d324ee925f122449bf89faec8febf7d, type: 3}
+    - {fileID: 21300000, guid: de1fd68f90e02fc4a8b85009d28aec57, type: 3}
+    - {fileID: 21300000, guid: 5e9efb29c988d794fb62ad29f5ecd463, type: 3}
+    - {fileID: 21300000, guid: 070ca49874903f345a38976b31362dc8, type: 3}
+    - {fileID: 21300000, guid: 7d962bf36364ff341a329723654197b3, type: 3}
+    - {fileID: 21300000, guid: 73b93d67bb22e1542bb3df6c2d802aea, type: 3}
+    - {fileID: 21300000, guid: d3ef345c8f13f314790958c7b442c435, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 450
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 484a6d7129bf68144ac5ac8dcaa0a022, type: 3}
+    - {fileID: 21300000, guid: 699836f083676d0439596ac959f57e7a, type: 3}
+    - {fileID: 21300000, guid: 75d5b680557f0364db70af109e536570, type: 3}
+    - {fileID: 21300000, guid: a23d367a4186937499024ca59d6dae8c, type: 3}
+    - {fileID: 21300000, guid: f770ef1fa948e23458bbb0d67509e7ae, type: 3}
+    - {fileID: 21300000, guid: f601c2f689fd148439768b37bd7661d8, type: 3}
+    - {fileID: 21300000, guid: f5e08ed7f0fd5ba4694d2bc7f58ad392, type: 3}
+    - {fileID: 21300000, guid: 8b2cec5eee592c244ab404385d107cc1, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 275
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 98cbb65f277eea94abdcdec875f24ff7, type: 3}
+    - {fileID: 21300000, guid: 485424a13038fba40990f1c3116cb9f7, type: 3}
+    - {fileID: 21300000, guid: ec2bae06f5e57ef4f8c91ede2c8136ec, type: 3}
+    - {fileID: 21300000, guid: b1f1d41c7a25d5741bcf396f7434810a, type: 3}
+    - {fileID: 21300000, guid: b6a159c3574ff0c4aa6ae03601c8f57d, type: 3}
+    - {fileID: 21300000, guid: d7b1bce9b2451eb4b8d65e2f694eaeb4, type: 3}
+    - {fileID: 21300000, guid: 5bbedb4eca6517c46bc5b0663572aecd, type: 3}
+    - {fileID: 21300000, guid: 5ea5269eff02cb84795553bf548455f0, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 300
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 27e2bcda70147af4e882cb0ba2089dac, type: 3}
+    - {fileID: 21300000, guid: e4363fab4cfad4c48b6b3273377bfe93, type: 3}
+    - {fileID: 21300000, guid: e412d290e447bfa4fadfc31f1b93b49e, type: 3}
+    - {fileID: 21300000, guid: 3346c8c3ca1f54f4fa8e40e4303ed9b8, type: 3}
+    - {fileID: 21300000, guid: f8241adf68ba4d34a9c6c62558ea887f, type: 3}
+    - {fileID: 21300000, guid: 2e330cf91d91d8e489a7a5d9f205a7e5, type: 3}
+    - {fileID: 21300000, guid: e3ed1a95981fa2e49b9b79119d7e36d3, type: 3}
+    - {fileID: 21300000, guid: 89f372730f57cd5419624ff17bb50208, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 1b97303faae7ad94c9e6403161fd9f07, type: 3}
+    - {fileID: 21300000, guid: 5438bbcd1e58a11498e28cbe1522e161, type: 3}
+    - {fileID: 21300000, guid: bbeb25da71eb1c248ac4804649d7eb28, type: 3}
+    - {fileID: 21300000, guid: 1efdd804822319548bc136679ad188a5, type: 3}
+    - {fileID: 21300000, guid: b8879e2c4d8fda9468483af80d0fb42e, type: 3}
+    - {fileID: 21300000, guid: 35c868338bdf87848a0473a0bc758106, type: 3}
+    - {fileID: 21300000, guid: bb5f656fe47fcb0448a68aa3b9856697, type: 3}
+    - {fileID: 21300000, guid: cd0553ea1c9d99743a4351e9dc095090, type: 3}
+    unlockCondition:
+      unlockType: 5
+      amountToUnlock: 25
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: d6f5ba98d1e3c694dbd3de5133c0ff2c, type: 3}
+    - {fileID: 21300000, guid: 4938bc1b943f7fe48a70ac1c72fddfeb, type: 3}
+    - {fileID: 21300000, guid: fe37daf8d8890f240b4db377986f16d8, type: 3}
+    - {fileID: 21300000, guid: 6148ad63e11e05346a6e68e5fb22b58c, type: 3}
+    - {fileID: 21300000, guid: c037b50df3a2e42499db19af548ce6d5, type: 3}
+    - {fileID: 21300000, guid: 17fb34aa883a5f14e90d635d17d4ffef, type: 3}
+    - {fileID: 21300000, guid: b1e69ff0fe1ecda4997c2b2b8df30dcb, type: 3}
+    - {fileID: 21300000, guid: e954b2e3625b7e74ca9c24bc649dc22e, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 300
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 20e40f78b5c42f34f9d671d8fd107abd, type: 3}
+    - {fileID: 21300000, guid: 0a40d3552975f4e4f9a0276fd42c7fdd, type: 3}
+    - {fileID: 21300000, guid: 63472256abbc55a40ac363598394b285, type: 3}
+    - {fileID: 21300000, guid: 947ddbae7ccd25c49ae8b639c10d5ac4, type: 3}
+    - {fileID: 21300000, guid: 6a79291fd37a40247b583402edc940f1, type: 3}
+    - {fileID: 21300000, guid: b873f452743ccb64fb30334bb0349e85, type: 3}
+    - {fileID: 21300000, guid: 016568ceffb8eff4aad17b3cb2c2a598, type: 3}
+    - {fileID: 21300000, guid: bd2c63fa0c8618e479621bbea2e209ec, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 350
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 98e9704e430a60a419cbefc0bd62637a, type: 3}
+    - {fileID: 21300000, guid: 3fb3cfd6dc3aace48b4d78bd2d74d164, type: 3}
+    - {fileID: 21300000, guid: 03526809dea5856418754120102c1259, type: 3}
+    - {fileID: 21300000, guid: e9123f78b1e5f8543881f5b1c15fdb97, type: 3}
+    - {fileID: 21300000, guid: 8a85b0ff0c0097040ab4e87cdbfa3db0, type: 3}
+    - {fileID: 21300000, guid: 7d4f1f4ba76ff5a41ae394f344dfa9ca, type: 3}
+    - {fileID: 21300000, guid: e3ed8d4f83e43a54db388e9116219fdf, type: 3}
+    - {fileID: 21300000, guid: 350c7500efc34994b898b2fbb87fdab0, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 550
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: b7cb3eab9dd92c74c920024b506636a3, type: 3}
+    - {fileID: 21300000, guid: 17763b13b7853a046a467b00b31bd35c, type: 3}
+    - {fileID: 21300000, guid: 60a018ec2dbd67b46a3fe53adff0d811, type: 3}
+    - {fileID: 21300000, guid: 7b5a67213c7911f43a125dc649c49501, type: 3}
+    - {fileID: 21300000, guid: 73f0430805702e34e9a63ac05ceffda0, type: 3}
+    - {fileID: 21300000, guid: 7e3175f4bb1f94e44bcf3c0dc73d2213, type: 3}
+    - {fileID: 21300000, guid: c85b4473172321444bd9becd939782e9, type: 3}
+    - {fileID: 21300000, guid: 4faf3adf66a01f1488629071f8b913ba, type: 3}
+    unlockCondition:
+      unlockType: 3
+      amountToUnlock: 45
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 6dfd1c968f36d0747a831685f90c580d, type: 3}
+    - {fileID: 21300000, guid: 0b550500b1c4d8a43a06532a09419633, type: 3}
+    - {fileID: 21300000, guid: 863ff0c035afe114d8af18225c041ae0, type: 3}
+    - {fileID: 21300000, guid: e1ea66c8343cf82468b237b252e98abf, type: 3}
+    - {fileID: 21300000, guid: 6cb77330057013d46878c6e3838bfef7, type: 3}
+    - {fileID: 21300000, guid: c4d31224f9db1674e8dbf054ad204176, type: 3}
+    - {fileID: 21300000, guid: c4ad4c6ca6a787847baceee81ec23182, type: 3}
+    - {fileID: 21300000, guid: 4de9fa4818d78b34780d037a5248b81b, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 350
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: bab24ec37da67be49bdf5515c64f9c63, type: 3}
+    - {fileID: 21300000, guid: f95f53062168d45449fc1dd11e8418e0, type: 3}
+    - {fileID: 21300000, guid: 203dfa139892739468af36c0fc8283cd, type: 3}
+    - {fileID: 21300000, guid: d8e1f6582c1a0864b95665d3d02ebfc7, type: 3}
+    - {fileID: 21300000, guid: 4abeced115e88424397f4eee2990ec56, type: 3}
+    - {fileID: 21300000, guid: 4696c9b2cf054264bacff22305db3359, type: 3}
+    - {fileID: 21300000, guid: 99c404833df34c84cb241e507a4edce4, type: 3}
+    - {fileID: 21300000, guid: 2c3c383a6159b3541a522caa42977b1d, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 400
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 03b53144eeaad0342b10b00d537b6334, type: 3}
+    - {fileID: 21300000, guid: 93e870cf207a12d4cb2ce63ac4a83fb0, type: 3}
+    - {fileID: 21300000, guid: 7140e548702a2d54abde0b27f31a5db7, type: 3}
+    - {fileID: 21300000, guid: 8dca8655cb5b73347ae8880069f974a9, type: 3}
+    - {fileID: 21300000, guid: fce9c5fbefbcad0448d09bca1b7b87b9, type: 3}
+    - {fileID: 21300000, guid: 440c5d84bdddff74aa6ae717e129702a, type: 3}
+    - {fileID: 21300000, guid: ea0d542a488bf30418258c735a9afe5c, type: 3}
+    - {fileID: 21300000, guid: 29269f3ed6104c44ea2933281060c17f, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 650
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 6857a0a3a760b70489af3e7d93535c0a, type: 3}
+    - {fileID: 21300000, guid: 0e7efd1814f0b5e4680ad0dd6c9cb875, type: 3}
+    - {fileID: 21300000, guid: 75ef65a69bce9654bb45f125756fb619, type: 3}
+    - {fileID: 21300000, guid: 90c6d4c697f276841b3528566285786e, type: 3}
+    - {fileID: 21300000, guid: fc6396ef8709e29428da3b1336f20d43, type: 3}
+    - {fileID: 21300000, guid: 32f3d73d6b045e64bac137c0d56fde03, type: 3}
+    - {fileID: 21300000, guid: 5724ceb3444ffe9448a2a02c4d99d5fc, type: 3}
+    - {fileID: 21300000, guid: 26d9073064f9ae24e846e27538b2065f, type: 3}
+    unlockCondition:
+      unlockType: 3
+      amountToUnlock: 60
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 1a111e24b65be69498dc05cae3033d34, type: 3}
+    - {fileID: 21300000, guid: b8ebbb3eb96dd31428746420ff9597c8, type: 3}
+    - {fileID: 21300000, guid: 0e3405e734cbf1a459aa01923bbc5988, type: 3}
+    - {fileID: 21300000, guid: bb13e2c9b416fb54da9bb74a34ee6cbd, type: 3}
+    - {fileID: 21300000, guid: 8a94312865fa9c94b9a761e6061973a8, type: 3}
+    - {fileID: 21300000, guid: 6a08807d2b2ba9e4788d21758f003159, type: 3}
+    - {fileID: 21300000, guid: 703b0bf36818fa04091f6bf86a79aca8, type: 3}
+    - {fileID: 21300000, guid: 30de5fb6edfdbdf4baf209265247521c, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 400
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 48712f6f246aba64397914a0dfc85b0c, type: 3}
+    - {fileID: 21300000, guid: f213bb7af2e11fe4dac62483939a5b37, type: 3}
+    - {fileID: 21300000, guid: 809b8e629a80bc846a10a5fd0c4ba10e, type: 3}
+    - {fileID: 21300000, guid: dff7d0ebe796f344abcd1209d4615ca7, type: 3}
+    - {fileID: 21300000, guid: 6344b6f7cd4a24341a36eb0abb03d767, type: 3}
+    - {fileID: 21300000, guid: 50e483f47ea692d4e949ffaa5ca62479, type: 3}
+    - {fileID: 21300000, guid: 1ff89ae205ae86e45b172e5c659b1cbf, type: 3}
+    - {fileID: 21300000, guid: 45b25e0cd1eb4734ca470213d52c812f, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 450
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 006704e1f3ac95746a91c5209fef5056, type: 3}
+    - {fileID: 21300000, guid: 4baa3f89b053e3c4296e2c80c80458ce, type: 3}
+    - {fileID: 21300000, guid: b1b31043cdda01d448a3ba97b2449c94, type: 3}
+    - {fileID: 21300000, guid: 9fc182545a90ce047974dc4a8fab8911, type: 3}
+    - {fileID: 21300000, guid: c3210aeba75c2674a9b6d0b2e9d0e9bc, type: 3}
+    - {fileID: 21300000, guid: 420eb57c58af3be4fbf6f5e10906b67f, type: 3}
+    - {fileID: 21300000, guid: 44af05b151f11044bbc4a1630fd25dc7, type: 3}
+    - {fileID: 21300000, guid: 1b43adc7566ab904ba2d7b118eb4f130, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 800
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: d5cd1f34d9c84b64faef77de5d14ac4c, type: 3}
+    - {fileID: 21300000, guid: 7bdfb787a0f88ab458788e66481c17fb, type: 3}
+    - {fileID: 21300000, guid: 74e3535d21b39734b819bad5b0bf95c1, type: 3}
+    - {fileID: 21300000, guid: 26684efd1761e1448b568587eb7580a0, type: 3}
+    - {fileID: 21300000, guid: d0dde1294e7ad924c8e7b49485bfdac1, type: 3}
+    - {fileID: 21300000, guid: e27f033b59e464846ad5da19c526b00e, type: 3}
+    - {fileID: 21300000, guid: e98d4676e7ac0be4eb40d7be6a549c50, type: 3}
+    - {fileID: 21300000, guid: cc9e5a72e2e329c4798521e45bd3e269, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 450
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 591bc79d612c0c4499ea23b3a0a910e6, type: 3}
+    - {fileID: 21300000, guid: 16ab1d175573c5d409d56e265398838b, type: 3}
+    - {fileID: 21300000, guid: 5b53301d59467eb4a9a974c539a40bf0, type: 3}
+    - {fileID: 21300000, guid: 75aa560b079573d448f5b1e89dfaaaff, type: 3}
+    - {fileID: 21300000, guid: cc4c6abdee3e23f47869a691331d7bd8, type: 3}
+    - {fileID: 21300000, guid: 3032d81b3ddcbb047b98988507338b2a, type: 3}
+    - {fileID: 21300000, guid: db8ac9f7ca4e5d44c976319b2265459f, type: 3}
+    - {fileID: 21300000, guid: 549731586d44c4e4b99ab1bbe575a5bc, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: eeaa84ece2b1ff04a9c01779eec94bac, type: 3}
+    - {fileID: 21300000, guid: 6856beb40b1538449964e5aff9230bf2, type: 3}
+    - {fileID: 21300000, guid: 30ced36f067c5f145a618d5ed1ccbbcf, type: 3}
+    - {fileID: 21300000, guid: f1ec375e099377548b9bdd1261784f96, type: 3}
+    - {fileID: 21300000, guid: b82d1b4f49f259a46bab8d2612bf3a4c, type: 3}
+    - {fileID: 21300000, guid: 05a82fef9d69d0f4186a3fb73d8410c1, type: 3}
+    - {fileID: 21300000, guid: a091cc58e5b0d9641b8ca989d1f86a5e, type: 3}
+    - {fileID: 21300000, guid: c39b7f5757005f146bd1ee6ff3c2f3e7, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 1000
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 3b07d480b9ab2364c88d18fe86519a44, type: 3}
+    - {fileID: 21300000, guid: 7b3dd792ff740e8498285a5f96f9d81b, type: 3}
+    - {fileID: 21300000, guid: bda96b328bd8dc54a92c7d8fc3da6a84, type: 3}
+    - {fileID: 21300000, guid: 9bdf74bbdf5a57c4e8a59a904cc97573, type: 3}
+    - {fileID: 21300000, guid: 57f881950467cac46baeccf20a22aec0, type: 3}
+    - {fileID: 21300000, guid: 6c5a656ed36c8e945b268b4df44deeed, type: 3}
+    - {fileID: 21300000, guid: 2b57690d97edcff41ad57ef88e5190bc, type: 3}
+    - {fileID: 21300000, guid: 8294ad4bbcc5231449de3a4fa0374b59, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 97698aa181e7d0e4fa82a640e0f80898, type: 3}
+    - {fileID: 21300000, guid: efd8d089e7e303341b0a9243f5a41928, type: 3}
+    - {fileID: 21300000, guid: 885747e426e50004d9ab62de6e56ec71, type: 3}
+    - {fileID: 21300000, guid: 21f2e778176130645abaf926727decd7, type: 3}
+    - {fileID: 21300000, guid: 6a4baf061572f5840867f2726cb310e2, type: 3}
+    - {fileID: 21300000, guid: 6de2295647151d940bf1c60444495a52, type: 3}
+    - {fileID: 21300000, guid: bc62347bf04557149950e7bd5e4f7018, type: 3}
+    - {fileID: 21300000, guid: aee310408c8dd514290e5eedf6ffb97e, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 600
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 71d5dd1549028b548b737d4ad8f04dad, type: 3}
+    - {fileID: 21300000, guid: 851715c1ab6e9bd49912771b64760267, type: 3}
+    - {fileID: 21300000, guid: 818678cf1a68ec645b3c18a0686937a2, type: 3}
+    - {fileID: 21300000, guid: b6f12eeb378734f468ada8d75e69208c, type: 3}
+    - {fileID: 21300000, guid: af1059ca4110f6e46aeee8749d8be03e, type: 3}
+    - {fileID: 21300000, guid: 36b9539b5e920184db12c3d1df6a9113, type: 3}
+    - {fileID: 21300000, guid: f42801836fd7a454c9328898f5b40b80, type: 3}
+    - {fileID: 21300000, guid: a2b5e4f765f221b49a082a382b231ae2, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 1200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: f4e88a527a81c444bb841d631dae5e7f, type: 3}
+    - {fileID: 21300000, guid: b566de7e9224cf54b9be98d0bbbbd2b1, type: 3}
+    - {fileID: 21300000, guid: 6b72e0d0cddf34846bc7529643779894, type: 3}
+    - {fileID: 21300000, guid: 9b34624501c48ce4ba729325deaff959, type: 3}
+    - {fileID: 21300000, guid: 6484f1a7b25d8b64eb1c0fee67254cc1, type: 3}
+    - {fileID: 21300000, guid: 7d56b3f05bb3363468e8f43ef993a6a1, type: 3}
+    - {fileID: 21300000, guid: e7be14094b4d2ca4b889aeab614723fc, type: 3}
+    - {fileID: 21300000, guid: a5be81336e2a0b54b8a5b58c0e0a0236, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 600
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 4a39f3de26e6d864fb8083658a8d0692, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 700
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 7caf1436cfcfa6449bc238f5bc9952b3, type: 3}
+    - {fileID: 21300000, guid: a2d5603f67c15e0409efd9d6994c92e0, type: 3}
+    - {fileID: 21300000, guid: 92aebb397fd6b8947ae85150b6020a58, type: 3}
+    - {fileID: 21300000, guid: efc6684f2292bde40a250bd2a72cf143, type: 3}
+    - {fileID: 21300000, guid: 48fff082bbde617459704364c6803ee8, type: 3}
+    - {fileID: 21300000, guid: 1eec800991f24cc45bd148302a7e8fce, type: 3}
+    - {fileID: 21300000, guid: 8f5d11a4e4d052648a34c6feb28f1d79, type: 3}
+    - {fileID: 21300000, guid: 2ac2cf6321ed7874e8351b93aef5116c, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 1500
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: e92b90a63795e714a8d4c3d21cf604cc, type: 3}
+    - {fileID: 21300000, guid: aa0c4c8ca62875c4a945ae0d2f96fa09, type: 3}
+    - {fileID: 21300000, guid: 0c5c970d52661b842b1ad14c2f4e0638, type: 3}
+    - {fileID: 21300000, guid: e77d3f87bdd2cbe4885013ce4a112342, type: 3}
+    - {fileID: 21300000, guid: 6f435e27c05b3774091ccf3beea267a8, type: 3}
+    - {fileID: 21300000, guid: 5e31c44aab5fad34bb24562d0d53c32d, type: 3}
+    - {fileID: 21300000, guid: 3402d50972cb6af428761ee34e6c00ec, type: 3}
+    - {fileID: 21300000, guid: 3a7734c835171704f96b719f5f854581, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 700
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: a1619cb1657ade84eba68b45e0fe7875, type: 3}
+    - {fileID: 21300000, guid: 55cfddc61b92c464e9c2b0fd69ce11d0, type: 3}
+    - {fileID: 21300000, guid: 82db7c961624a1b4cbc11f562ee90ab6, type: 3}
+    - {fileID: 21300000, guid: c2aa86103ac439241ae69601cc287795, type: 3}
+    - {fileID: 21300000, guid: 6f358574e2fdfc241b5d7bd156f3668a, type: 3}
+    - {fileID: 21300000, guid: a99af07f0cb163142bf9c67496b59fe5, type: 3}
+    - {fileID: 21300000, guid: 69e60cb004184c9499ed04226d11eba8, type: 3}
+    - {fileID: 21300000, guid: ec04941011dbb174f93d459d823932d5, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 800
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 04f06ccc60c92a14da38385d73ccc079, type: 3}
+    - {fileID: 21300000, guid: 9d473f45c0cff2d449839fe6f83c8000, type: 3}
+    - {fileID: 21300000, guid: 3030d5f97c66c8349949649665e586e7, type: 3}
+    - {fileID: 21300000, guid: 452d017ade2544f4d840976bfcd74a7c, type: 3}
+    - {fileID: 21300000, guid: a25fadffc658a9e4ebc8cd4b3dfa013f, type: 3}
+    - {fileID: 21300000, guid: a41443e157ae5f145957255fc46e56c6, type: 3}
+    - {fileID: 21300000, guid: 60f86effa0a6d5641b0aaad5a27d787f, type: 3}
+    - {fileID: 21300000, guid: 57b58f3b7f2fae84cbdcf388faa55560, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 2000
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 3e78d4edb475af94fa5d775acc84c56c, type: 3}
+    - {fileID: 21300000, guid: 8d03f677196b29f498bebc98f0208c73, type: 3}
+    - {fileID: 21300000, guid: 0bd2e590fc154da4499505a20d0cf865, type: 3}
+    - {fileID: 21300000, guid: 50383b0ab8f727247a35bf603723e7f7, type: 3}
+    - {fileID: 21300000, guid: dd0c026817c30724daaedd1d1dcb4020, type: 3}
+    - {fileID: 21300000, guid: 4a96eaee6b1877e40a2bc5d58b3857c8, type: 3}
+    - {fileID: 21300000, guid: 93d4ce5237b1f7c4ca473a92b21060c9, type: 3}
+    - {fileID: 21300000, guid: 7e94b00b7b2b46941a64478e2cb44b6f, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 800
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: aa704f48f266bcc4d83123923af1f397, type: 3}
+    - {fileID: 21300000, guid: e0ec9fc7a09480d4ea4f7057c8b8dd79, type: 3}
+    - {fileID: 21300000, guid: 8708e3e1ebdb01d4ba01e5e141f1ceae, type: 3}
+    - {fileID: 21300000, guid: 63400ca1c4f66ec4fbb5db43985829b4, type: 3}
+    - {fileID: 21300000, guid: 0896099e4a1231a42b2e84db048cf6f9, type: 3}
+    - {fileID: 21300000, guid: 52cd79ba72bb02f42886a098721e79d5, type: 3}
+    - {fileID: 21300000, guid: 4189d437ef7547a439f559e9d0b2d8e4, type: 3}
+    - {fileID: 21300000, guid: 82d137a90c6d07247bdf865c000f669a, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 1000
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: a65bca7ff1972c84f9ce64a5bf9be27b, type: 3}
+    - {fileID: 21300000, guid: 815c2cd0b5a5a384f906ff1e9a4678b9, type: 3}
+    - {fileID: 21300000, guid: 4b91e38e7e1b8064a98859b65b8e4c23, type: 3}
+    - {fileID: 21300000, guid: dcd2d2d39e5a32b438c486f4bc938cef, type: 3}
+    - {fileID: 21300000, guid: 4ac569ed3205399498c1cab045d5d4cb, type: 3}
+    - {fileID: 21300000, guid: 00ba1b47e4f47d64b848d6dd55366af1, type: 3}
+    - {fileID: 21300000, guid: f7863ecccb8ea7344aafb1cdf9752b00, type: 3}
+    - {fileID: 21300000, guid: 9d34d804e63712f4ca0067457eb808fb, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 3000
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 30af269ffb1f22548a1228a9bb0da559, type: 3}
+    - {fileID: 21300000, guid: ca95d3f082d322b4b8d567d50c3d5d2f, type: 3}
+    - {fileID: 21300000, guid: a11bda154ee5a9842b9a58839fe6d4e0, type: 3}
+    - {fileID: 21300000, guid: 64cb5497611d85848b3d9542a9d12fbd, type: 3}
+    - {fileID: 21300000, guid: 4440a66e56c97a942bc083417016e5f5, type: 3}
+    - {fileID: 21300000, guid: 6b0b75da74090db498816865cc3b38b7, type: 3}
+    - {fileID: 21300000, guid: 98804c3905534894d93c643cbd1a4cce, type: 3}
+    - {fileID: 21300000, guid: c5177d973bd247342864ead98c482f8c, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 1000
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: 2ad9ede3acee90f4cbd16069888413c2, type: 3}
+    - {fileID: 21300000, guid: 34d54198a625c314794eccd76fbbb467, type: 3}
+    - {fileID: 21300000, guid: e2be2828b4007dc4388b38e388df4062, type: 3}
+    - {fileID: 21300000, guid: 19e69d82b74f250489a812a727c1c94c, type: 3}
+    - {fileID: 21300000, guid: 26f5e433b25e90c45a867f4fc7f06924, type: 3}
+    - {fileID: 21300000, guid: 34755923ffe11484eb1f7a6f2591d700, type: 3}
+    - {fileID: 21300000, guid: 0ab40b9c2e06569458d7ff3cadad375b, type: 3}
+    - {fileID: 21300000, guid: 0abab43e739fd8343b9bbfacfe1aa335, type: 3}
+    unlockCondition:
+      unlockType: 1
+      amountToUnlock: 1200
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: c8f27fb56a219ce47a72a71f3d15c7b3, type: 3}
+    - {fileID: 21300000, guid: 388d2b7742e10e04bbec4e68cdbe44ed, type: 3}
+    - {fileID: 21300000, guid: b65768c253858e748a70c5d9993d6a68, type: 3}
+    - {fileID: 21300000, guid: 831d559c23e7bae4ab0dfadcf255b508, type: 3}
+    - {fileID: 21300000, guid: 17690df0f52342f468ed77a620c94821, type: 3}
+    - {fileID: 21300000, guid: 4eb17bddbc26ef44fad8ea8e513e340d, type: 3}
+    - {fileID: 21300000, guid: 0e8434d070d17604e98b6b1705b1adb8, type: 3}
+    - {fileID: 21300000, guid: 5b437bc5ff4b60a4ea5acc34b693d1f9, type: 3}
+    unlockCondition:
+      unlockType: 2
+      amountToUnlock: 5000
+  - isUnlock: 0
+    hasClickedAfterUnlock: 0
+    sprites:
+    - {fileID: 21300000, guid: cad973fac2402d84b961a87352b31807, type: 3}
+    - {fileID: 21300000, guid: 431e66e955d086c45b5990921dd383bf, type: 3}
+    - {fileID: 21300000, guid: a3572785532362148ba6af22da18ec9c, type: 3}
+    - {fileID: 21300000, guid: 766cfab524b457a4bb4415414e281a3d, type: 3}
+    - {fileID: 21300000, guid: 68d675a8399fa8849b476c76e12a6db1, type: 3}
+    - {fileID: 21300000, guid: 499a3ec5da5123244b002e5407629bc3, type: 3}
+    - {fileID: 21300000, guid: 7d5a75dc4a20c7445905d37c8e685bd7, type: 3}
+    - {fileID: 21300000, guid: fddf7ef45f3d11049bbe82b9483af151, type: 3}
+    unlockCondition:
+      unlockType: 5
+      amountToUnlock: 60
+  curFace:
+    isUnlock: 1
+    hasClickedAfterUnlock: 1
+    sprite1: {fileID: 21300000, guid: bd9287d5f864a8a4cb1b68d75b26d0ec, type: 3}
+    sprite2: {fileID: 21300000, guid: 7ba71bf9ad2d8be4aba079b018e784c1, type: 3}
+    unlockCondition:
+      unlockType: 0
+      amountToUnlock: 0
+  curKnifeSprite: {fileID: 21300000, guid: 3bd6f7743a8a78049a907008b3386ced, type: 3}
+  curColor: {fileID: 21300000, guid: 4d00b842f3ae2894b90897a22697901e, type: 3}
+  curRank: {fileID: 21300000, guid: 691bfd08cddf07c40814605da4b34521, type: 3}
